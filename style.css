@@ -22,10 +22,14 @@
 /* :: Base CSS */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
-  font-family: "Work Sans", sans-serif;}
+  font-family: "Work Sans", sans-serif;
+  cursor: url('img/cursor.png'), auto;
+}
+
 
 .ubuntu-fonts {
   font-family: "Ubuntu", sans-serif; }
