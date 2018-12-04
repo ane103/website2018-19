@@ -42,13 +42,13 @@
         welcomeSlide.owlCarousel({
             items: 1,
             margin: 0,
-            loop: true,
+            loop: false,
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 7000, // Autoplay Timeout 1s = 1000ms
             smartSpeed: 2000,
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut'
+            // animateIn: 'fadeIn',
+            // animateOut: 'fadeOut'
         });
 
         $('.hero-post-slide').owlCarousel({
